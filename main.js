@@ -23,6 +23,11 @@ const techStackChart = new Chart(techStack, {
         }
       },
       y: {
+        ticks: {
+          font: {
+              size: 10,
+          }
+      },
         grid: {
           display: false
         }
